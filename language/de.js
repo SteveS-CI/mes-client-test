@@ -1,0 +1,71 @@
+const de = {
+  language: 'Deutsch',
+  // captions
+  login: 'Einloggen',
+  changePassword: 'Kennwort ändern',
+  username: 'Benutzername',
+  password: 'Passwort',
+  register2FA: '2FA-Registrierung',
+  currentPassword: 'Jetziges Passwort',
+  newPassword: 'Neues Kennwort',
+  passwordConfirm: 'Kennwort bestätigen',
+  authenticatorCode: 'Authentifizierungscode',
+  submit: 'Absenden',
+  cancel: 'Abbrechen',
+  logout: 'Abmelden',
+  refresh: 'Aktualisierung',
+  // change password
+  passMismatch: 'Passwort und Bestätigung stimmen nicht überein',
+  passChanged: 'Das Passwort wurde erfolgreich geändert.',
+  notLoggedIn: 'Benutzer ist nicht angemeldet.',
+  // general errors
+  http_postRequired: 'Ungültige HTTP-Methode. (POST) erforderlich',
+  http_bodyContent: 'HTTP-Textinhalt fehlt.',
+  http_bodyContentInvalid: 'Der HTTP-Textinhalt ist ungültig.',
+  // token and factor errors
+  token_codeMissing: 'Code-Token fehlt',
+  token_codeMismatch: 'Nichtübereinstimmung des Code-Tokens',
+  factor_missing: 'Authentifizierungsfaktor fehlt',
+  factor_invalid: 'Authentifizierungsfaktor ungültig',
+  token_authMissing: 'Authentifizierungstoken fehlt',
+  token_authMismatch: 'Authentifizierungstoken-Nichtübereinstimmung',
+  user_updateError: 'Fehler beim Aktualisieren des Benutzerdatensatzes',
+  factor_enabled: 'Zweiter Faktor Authentifizierung aktiviert',
+  // logon errors
+  mes_userNotExist: 'MES-Benutzer existiert nicht',
+  mes_userDisabled: 'MES-Benutzer wurde deaktiviert',
+  // ldap error messages
+  ldap_525: "Benutzer nicht gefunden",
+  ldap_52B: "Der als aktuelles Passwort angegebene Wert ist falsch",
+  ldap_52C: "Der für das neue Passwort angegebene Wert enthält Werte, die in Passwörtern nicht zulässig sind",
+  ldap_52D: "Passwort entspricht nicht den Komplexitätsregeln",
+  ldap_52e: "Ungültige Anmeldeinformationen",
+  ldap_530: "Zurzeit ist die Anmeldung nicht gestattet",
+  ldap_531: "Anmeldung an dieser Workstation nicht zulässig",
+  ldap_532: "Passwort abgelaufen",
+  ldap_533: "Konto deaktiviert",
+  ldap_701: "Konto abgelaufen",
+  ldap_773: "Benutzer muss Passwort zurücksetzen",
+  ldap_775: "Konto gesperrt",
+  ldap_000: "Unbekannter LDAP-Fehler",
+  // benutzerdefinierte LDAP-Fehler
+  ldap_1000: "Administratorbenutzer existiert nicht",
+  ldap_1001: "Administratoranmeldeinformationen sind ungültig"
+  // ldap_525 = 'User not found',
+  // ldap_52B = 'The value provided as the	current password is incorrect',
+  // ldap_52C =	'The value provided	for the	new password contains values that are	not allowed	in passwords',
+  // ldap_52D =	"Password doesn't meet the complexity rules",
+  // ldap_52e = 'Invalid credentials',
+  // ldap_530 = 'Not permitted to logon at this time',
+  // ldap_531 = 'Not permitted to logon at this workstation',
+  // ldap_532 = 'Password expired',
+  // ldap_533 = 'Account disabled',
+  // ldap_701 = 'Account expired',
+  // ldap_773 = 'User must reset password',
+  // ldap_775 = 'Account locked',
+  // ldap_000 = 'Unknown LDAP error',
+  // ldap_1000 = 'Admin user does not exist',
+  // ldap_1001 = 'Admin credentials are invalid'
+}
+
+export default de;

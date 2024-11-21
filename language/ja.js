@@ -1,0 +1,71 @@
+const ja = {
+  language: '日本語',
+  // captions
+  login: 'ログイン',
+  changePassword: 'パスワードを変更',
+  register2FA: '2FA 登録',
+  username: 'ユーザー名',
+  password: 'パスワード',
+  currentPassword: '現在のパスワード',
+  newPassword: '新しいパスワード',
+  passwordConfirm: 'パスワードを確認',
+  AuthenticatorCode: '認証コード',
+  submit: '送信',
+  cancel: 'キャンセル',
+  logout: 'ログアウト',
+  refresh: '更新',
+  // change password
+  passMismatch: 'パスワードと確認が一致しません。',
+  passChanged: 'パスワードが正常に変更されました。',
+  notLoggedIn: 'ユーザーはログインしていません。',
+  // general errors
+  http_postRequired: '無効な HTTP メソッドです。 (POST) が必要です',
+  http_bodyContent: 'HTTP 本文コンテンツがありません。',
+  http_bodyContentInvalid: 'HTTP 本文のコンテンツが無効です。',
+  // token and factor errors
+  token_codeMissing: 'コードトークンが見つかりません',
+  token_codeMismatch: 'コードトークンが一致しません',
+  Factor_missing: '認証要素がありません',
+  Factor_invalid: '認証要素が無効です',
+  token_authMissing: '認証トークンがありません。',
+  token_authMismatch: '認証トークンが一致しません',
+  user_updateError: 'ユーザー レコードの更新中にエラーが発生しました',
+  Factor_enabled: '第 2 要素認証が有効になりました',
+  // logon errors
+  mes_userNotExist: 'MES User does not exist',
+  mes_userDisabled: 'MES User has been disabled',
+  // ldap error messages
+  ldap_525: 'ユーザーが見つかりません',
+  ldap_52B: '現在のパスワードとして指定された値が正しくありません',
+  ldap_52C: '新しいパスワードに指定された値には、パスワードで許可されていない値が含まれています',
+  ldap_52D: "パスワードが複雑さのルールを満たしていません",
+  ldap_52e: '無効な認証情報',
+  ldap_530: '現時点ではログオンは許可されていません',
+  ldap_531: 'このワークステーションでのログオンは許可されていません',
+  ldap_532: 'パスワードの有効期限が切れました',
+  ldap_533: 'アカウントが無効です',
+  ldap_701: 'アカウントの有効期限が切れました',
+  ldap_773: 'ユーザーはパスワードをリセットする必要があります',
+  ldap_775: 'アカウントがロックされました',
+  ldap_000: '不明な LDAP エラー',
+  // custom ldap errors
+  ldap_1000: '管理者ユーザーが存在しません',
+  ldap_1001: '管理者の資格情報が無効です'
+  // ldap_525 = 'User not found',
+  // ldap_52B = 'The value provided as the	current password is incorrect',
+  // ldap_52C =	'The value provided	for the	new password contains values that are	not allowed	in passwords',
+  // ldap_52D =	"Password doesn't meet the complexity rules",
+  // ldap_52e = 'Invalid credentials',
+  // ldap_530 = 'Not permitted to logon at this time',
+  // ldap_531 = 'Not permitted to logon at this workstation',
+  // ldap_532 = 'Password expired',
+  // ldap_533 = 'Account disabled',
+  // ldap_701 = 'Account expired',
+  // ldap_773 = 'User must reset password',
+  // ldap_775 = 'Account locked',
+  // ldap_000 = 'Unknown LDAP error',
+  // ldap_1000 = 'Admin user does not exist',
+  // ldap_1001 = 'Admin credentials are invalid'
+}
+
+export default ja;

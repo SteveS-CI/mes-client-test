@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Flex Frame Test</title>
+  <script type="text/javascript">
+    function token(id) {
+      const req = new XMLHttpRequest();
+      req.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          // document is ready:
+          const { accessToken } = JSON.parse(req.responseText);
+          const div = document.getElementById(id);
+          div.innerText = accessToken;
+        }
+      }
+      req.open('POST', 'https://auth.flex.ciprecision.com:8443/api/token', true);
+      req.send(null);
+    }
+  </script>
+</head>
+
+<body>
+  <button onclick="token()">Get Token</button>
+  <div id="token"></div>
+</body>
+
+</html>

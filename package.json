@@ -1,0 +1,49 @@
+{
+  "name": "mes-client-test",
+  "version": "1.0.0",
+  "private": true,
+  "bin": "server.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development NODE_OPTIONS=--openssl-legacy-provider nodemon server.js",
+    "lint": "next lint",
+    "build": "next build",
+    "start": "next start -p 8080",
+    "prod": "cross-env NODE_ENV=production node server.js",
+    "brow": "browserify -e server.js -o output.js --node --im",
+    "brows": "browserify --help advanced",
+    "make": "pkg -t node16-win-x64 ."
+  },
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "bootstrap": "4.6.0",
+    "dom-helpers": "^5.2.1",
+    "express": "^4.17.1",
+    "js-cookie": "^2.2.1",
+    "jsonschema": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "next": "^11.1.2",
+    "proptypes": "^1.1.0",
+    "react": "17.0.2",
+    "react-bootstrap": "^1.6.0",
+    "react-dom": "17.0.2",
+    "totp-generator": "^0.0.13"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "nodemon": "^2.0.7"
+  },
+  "pkg": {
+    "assets": [
+      ".next/**/*",
+      "node_modules/**/*",
+      "mes.ciprecision.com.crt",
+      "mes.ciprecision.com.key"
+    ],
+    "scripts": [
+      ".next/dist/**/*.js"
+    ]
+  }
+}

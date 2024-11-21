@@ -1,0 +1,71 @@
+const en = {
+  language: 'English',
+  // captions
+  login: 'Login',
+  changePassword: 'Change password',
+  register2FA: '2FA Registration',
+  username: 'User name',
+  password: 'Password',
+  currentPassword: 'Current password',
+  newPassword: 'New password',
+  passwordConfirm: 'Confirm password',
+  authenticatorCode: 'Authenticator code',
+  submit: 'Submit',
+  cancel: 'Cancel',
+  logout: 'Logout',
+  refresh: 'Refresh',
+  // change password
+  passMismatch: 'Password and confirmation do not match.',
+  passChanged: 'Password changed successfully.',
+  notLoggedIn: 'User is not logged in.',
+  // general errors
+  http_postRequired: 'Invalid HTTP Method. (POST) required',
+  http_bodyContent: 'HTTP body content is missing.',
+  http_bodyContentInvalid: 'HTTP body content is invalid.',
+  // token and factor errors
+  token_codeMissing: 'Code token is missing',
+  token_codeMismatch: 'Code token mismatch',
+  factor_missing: 'Authentication factor missing',
+  factor_invalid: 'Authentication factor invalid',
+  token_authMissing: 'Authentication token missing.',
+  token_authMismatch: 'Auth token mismatch',
+  user_updateError: 'Error updating user record',
+  factor_enabled: 'Second factor Authentication enabled',
+  // logon errors
+  mes_userNotExist: 'MES User does not exist',
+  mes_userDisabled: 'MES User has been disabled',
+  // ldap error messages
+  ldap_525: 'User not found',
+  ldap_52B: 'The value provided as the	current password is incorrect',
+  ldap_52C:	'The value provided	for the	new password contains values that are	not allowed	in passwords',
+  ldap_52D:	"Password doesn't meet the complexity rules",
+  ldap_52e: 'Invalid credentials',
+  ldap_530: 'Not permitted to logon at this time',
+  ldap_531: 'Not permitted to logon at this workstation',
+  ldap_532: 'Password expired',
+  ldap_533: 'Account disabled',
+  ldap_701: 'Account expired',
+  ldap_773: 'User must reset password',
+  ldap_775: 'Account locked',
+  ldap_000: 'Unknown LDAP error',
+  // custom ldap errors
+  ldap_1000: 'Admin user does not exist',
+  ldap_1001: 'Admin credentials are invalid'
+  // ldap_525 = 'User not found',
+  // ldap_52B = 'The value provided as the	current password is incorrect',
+  // ldap_52C =	'The value provided	for the	new password contains values that are	not allowed	in passwords',
+  // ldap_52D =	"Password doesn't meet the complexity rules",
+  // ldap_52e = 'Invalid credentials',
+  // ldap_530 = 'Not permitted to logon at this time',
+  // ldap_531 = 'Not permitted to logon at this workstation',
+  // ldap_532 = 'Password expired',
+  // ldap_533 = 'Account disabled',
+  // ldap_701 = 'Account expired',
+  // ldap_773 = 'User must reset password',
+  // ldap_775 = 'Account locked',
+  // ldap_000 = 'Unknown LDAP error',
+  // ldap_1000 = 'Admin user does not exist',
+  // ldap_1001 = 'Admin credentials are invalid'
+}
+
+export default en;

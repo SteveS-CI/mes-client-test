@@ -1,0 +1,55 @@
+const es = {
+  language: 'Español',
+  // captions
+  login: 'Acceso',
+  changePassword: 'Cambiar la contraseña',
+  register2FA: 'Registro 2FA',
+  username: 'Nombre de usuario',
+  password: 'Contraseña',
+  currentPassword: 'Contraseña actual',
+  newPassword: 'Nueva contraseña',
+  passwordConfirm: 'Confirmar contraseña',
+  authenticatorCode: 'Código de autenticador',
+  submit: 'Enviar',
+  cancel: 'Cancelar',
+  logout: 'Cerrar sesión',
+  refresh: 'Actualizar',
+  // change password
+  passMismatch: 'La contraseña y la confirmación no coinciden',
+  // logon errors
+  mes_userNotExist: 'El usuario de MES no existe',
+  mes_userDisabled: 'El usuario de MES ha sido deshabilitado',
+  // ldap error messages
+  ldap_525: 'Usuario no encontrado',
+  ldap_52B: 'El valor proporcionado como contraseña actual es incorrecto',
+  ldap_52C: 'El valor proporcionado para la nueva contraseña contiene valores que no están permitidos en las contraseñas',
+  ldap_52D: "La contraseña no cumple con las reglas de complejidad",
+  ldap_52e: 'Credenciales no válidas',
+  ldap_530: 'No se permite iniciar sesión en este momento',
+  ldap_531: 'No se permite iniciar sesión en esta estación de trabajo',
+  ldap_532: 'Contraseña caducada',
+  ldap_533: 'Cuenta deshabilitada',
+  ldap_701: 'Cuenta caducada',
+  ldap_773: 'El usuario debe restablecer la contraseña',
+  ldap_775: 'Cuenta bloqueada',
+  ldap_000: 'Error LDAP desconocido',
+  // custom ldap errors
+  ldap_1000: 'El usuario administrador no existe',
+  ldap_1001: 'Las credenciales de administrador no son válidas'  // ldap_525 = 'User not found',
+  // ldap_52B = 'The value provided as the	current password is incorrect',
+  // ldap_52C =	'The value provided	for the	new password contains values that are	not allowed	in passwords',
+  // ldap_52D =	"Password doesn't meet the complexity rules",
+  // ldap_52e = 'Invalid credentials',
+  // ldap_530 = 'Not permitted to logon at this time',
+  // ldap_531 = 'Not permitted to logon at this workstation',
+  // ldap_532 = 'Password expired',
+  // ldap_533 = 'Account disabled',
+  // ldap_701 = 'Account expired',
+  // ldap_773 = 'User must reset password',
+  // ldap_775 = 'Account locked',
+  // ldap_000 = 'Unknown LDAP error',
+  // ldap_1000 = 'Admin user does not exist',
+  // ldap_1001 = 'Admin credentials are invalid'
+}
+
+export default es;

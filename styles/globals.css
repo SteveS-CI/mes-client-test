@@ -1,0 +1,98 @@
+html,
+body {
+  padding: 0;
+  margin: 5px;
+  font-family: Helvetica, sans-serif;
+}
+
+main {
+  font-size: 10pt;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.menu-button {
+  margin: 5px;
+}
+
+.login-form {
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.pop-button {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  min-width: 200px;
+}
+
+.input-group {
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.input-group-text {
+  font-size: inherit;
+  font-weight: bold;
+  min-width: 160px;
+  justify-content: flex-end;
+  padding: 6px 10px 6px 4px;
+}
+
+.form-control {
+  font-size: inherit;
+}
+
+.caption {
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+}
+
+.btn {
+  font-size: inherit;
+}
+
+.alert {
+  margin-top: 8px;
+  padding: 6px 10px;
+  margin-bottom: 5px;
+}
+
+.modal-dialog {
+  max-width: 1280px;
+}
+
+.modal-body {
+  padding: 0px;
+}
+
+.modal-content {
+  width: fit-content;
+  margin: auto;
+}
+
+.background-blur {
+  filter: blur(2px);
+}
+
+/* button colors */
+.btn-primary { background-color: #003D7E;}
+.btn-primary:hover { background-color: #0057A3;}
+
+/* alert colors */
+.alert-info { background-color: #82CFEF;}
+.alert-danger {background-color: #F3A5A5; color: #222222;}
+
+.frame-wrapper {
+  height: 80vh;
+  width: 100vh;
+}

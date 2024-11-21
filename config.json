@@ -1,0 +1,5 @@
+{
+  "port": 8080,
+  "host": "app.flex.ciprecision.com",
+  "certName": "flex.ciprecision.com"
+}

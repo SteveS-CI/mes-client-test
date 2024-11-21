@@ -1,0 +1,71 @@
+const pt = {
+  language: 'Português',
+  // captions
+  login: 'Login',
+  changePassword: 'Alterar senha',
+  register2FA: 'Registro 2FA',
+  username: 'Nome de usuário',
+  password: 'Senha',
+  currentPassword: 'Senha atual',
+  newPassword: 'Nova senha',
+  passwordConfirm: 'Confirmar senha',
+  authenticatorCode: 'Código do autenticador',
+  submit: 'Enviar',
+  cancel: 'Cancelar',
+  logout: 'Sair',
+  refresh: 'Atualizar',
+  // change password
+  passMismatch: 'A senha e a confirmação não coincidem.',
+  passChanged: 'Senha alterada com sucesso.',
+  notLoggedIn: 'O usuário não está logado.',
+  // general errors
+  http_postRequired: 'Método HTTP inválido. (POST) obrigatório',
+  http_bodyContent: 'Falta o conteúdo do corpo HTTP.',
+  http_bodyContentInvalid: 'O conteúdo do corpo HTTP é inválido.',
+  // token and factor errors
+  token_codeMissing: 'Token de código está faltando',
+  token_codeMismatch: 'Incompatibilidade de token de código',
+  factor_missing: 'Falta fator de autenticação',
+  factor_invalid: 'Fator de autenticação inválido',
+  token_authMissing: 'Token de autenticação faltando.',
+  token_authMismatch: 'Incompatibilidade de token de autenticação',
+  user_updateError: 'Erro ao atualizar o registro do usuário',
+  factor_enabled: 'Autenticação de segundo fator habilitada',
+  // logon errors
+  mes_userNotExist: 'Usuário MES não existe',
+  mes_userDisabled: 'Usuário MES foi desabilitado',
+  // ldap error messages
+  ldap_525: 'Usuário não encontrado',
+  ldap_52B: 'O valor fornecido como senha atual está incorreto',
+  ldap_52C: 'O valor fornecido para a nova senha contém valores que não são permitidos em senhas',
+  ldap_52D: "A senha não atende às regras de complexidade",
+  ldap_52e: 'Credenciais inválidas',
+  ldap_530: 'Não é permitido fazer logon neste momento',
+  ldap_531: 'Não é permitido fazer logon nesta estação de trabalho',
+  ldap_532: 'Senha expirada',
+  ldap_533: 'Conta desativada',
+  ldap_701: 'Conta expirada',
+  ldap_773: 'O usuário deve redefinir a senha',
+  ldap_775: 'Conta bloqueada',
+  ldap_000: 'Erro LDAP desconhecido',
+  // custom ldap errors
+  ldap_1000: 'Usuário administrador não existe',
+  ldap_1001: 'Credenciais de administrador são inválidas'
+  // ldap_525 = 'User not found',
+  // ldap_52B = 'The value provided as the	current password is incorrect',
+  // ldap_52C =	'The value provided	for the	new password contains values that are	not allowed	in passwords',
+  // ldap_52D =	"Password doesn't meet the complexity rules",
+  // ldap_52e = 'Invalid credentials',
+  // ldap_530 = 'Not permitted to logon at this time',
+  // ldap_531 = 'Not permitted to logon at this workstation',
+  // ldap_532 = 'Password expired',
+  // ldap_533 = 'Account disabled',
+  // ldap_701 = 'Account expired',
+  // ldap_773 = 'User must reset password',
+  // ldap_775 = 'Account locked',
+  // ldap_000 = 'Unknown LDAP error',
+  // ldap_1000 = 'Admin user does not exist',
+  // ldap_1001 = 'Admin credentials are invalid'
+}
+
+export default pt;
